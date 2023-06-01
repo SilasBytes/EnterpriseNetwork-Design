@@ -1,2 +1,2 @@
-# enterprisenetwork
+# 3 Tier Network Architecture
 WIP
