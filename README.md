@@ -1,5 +1,5 @@
 # 3 Tier Network Architecture
-This is a enterprise network that I designed and emulated using Cisco Packet Tracer.
+This is a enterprise network for a mid sized organization with a core, distribution, access layer that I designed and emulated using Cisco Packet Tracer.
 
 Enterprise network design of a main site and a secondary site interconnected.
 ![image](https://github.com/SilasBytes/EnterpriseNetwork-Design/assets/135275768/12ed76c0-0e86-4380-9e6e-ac775d6055e7)
