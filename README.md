@@ -2,7 +2,9 @@
 This is a enterprise network for a mid size organization with a core, distribution, access layer that I designed and emulated using Cisco Packet Tracer.
 
 Enterprise network design of a main site and a secondary site interconnected.
+![enterprisenetwork](https://github.com/SilasBytes/EnterpriseNetwork-Design/assets/135275768/4f6ef1a3-74b5-4008-b3fe-216fb92019be)
 ![image](https://github.com/SilasBytes/EnterpriseNetwork-Design/assets/135275768/12ed76c0-0e86-4380-9e6e-ac775d6055e7)
+
 
 Main Site
 
