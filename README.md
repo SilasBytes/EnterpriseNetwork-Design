@@ -15,7 +15,7 @@ Firewall was configured in Cisco's ASA with zone-based security: DMZ, Data Cente
 
 IPsec tunnel was configured site to site to allowed a secure VPN tunnel between the sites.
 
-VoIP was configured using Cisco IOS Telephony Service and IP address are assigned by the VOIP DHCP gateway.
+VoIP was configured using Cisco IOS Telephony Service and IP addresses are assigned by the VoIP's gateway.
 
-Wireless Lan Controller was configured to manage the Access Points's configuration.
+Wireless Lan Controller was configured to manage the Access Points's configuration and provide wifi using WPA2's Enterprise mode.
 
