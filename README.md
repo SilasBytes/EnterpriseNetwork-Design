@@ -9,9 +9,9 @@ Enterprise network design of a main site and a secondary site interconnected.
 Main site's network consists of the DMZ, Data center, and enterprise users.
 The secondary site's network consists of enterprise users.
 
-Routing Protocols: BGP was used to route between the main and secondary sites. Each site uses OSPF internally to route between different networks and OSPF routes were redistributed to BGP to connect the sites' networks.
+Routing Protocols: BGP was used to route between the main and secondary sites. Each site uses OSPF internally to route between different networks and the OSPF routes were redistributed to BGP to connect the sites' networks.
 
-Firewall was configured in Cisco's ASA with zone-based security: DMZ, Data Center, Users, WAN, and Site2WAN. Ingress traffic entering DMZ, Data Center, and Users would be inspected and either discarded or permitted by the policies. Egress traffic is allowed between the Users in any zones.
+Firewall was configured in Cisco's ASA with zone-based security: DMZ, Data Center, Users, WAN, and Site2WAN. Ingress traffic entering DMZ, Data Center, and Users zone would be inspected and either discarded or permitted by the policies. Egress traffic is allowed between the Users to any zones.
 
 IPsec tunnel was configured site to site to allowed a secure VPN tunnel between the sites.
 
