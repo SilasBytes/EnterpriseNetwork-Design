@@ -10,6 +10,7 @@ Main site's network consists of the DMZ, Data center, and enterprise users.
 The secondary site's network consists of enterprise users.
 
 Routing Protocols: BGP was used to route between the main and secondary sites. Each site uses OSPF internally to route between different networks and the OSPF routes were redistributed to BGP to connect the sites' networks.
+![networkprotodiagram](https://github.com/SilasBytes/EnterpriseNetwork-Design/assets/135275768/2943bf8e-4182-4661-8dc8-11d12eb95102)
 
 Firewall was configured in Cisco's ASA with zone-based security: DMZ, Data Center, Users, WAN, and Site2WAN. Ingress traffic entering DMZ, Data Center, and Users zone would be inspected and either discarded or permitted by the policies. Egress traffic is allowed between the Users to any zones.
 
@@ -17,5 +18,5 @@ IPsec tunnel was configured site to site to allowed a secure VPN tunnel between 
 
 VoIP was configured using Cisco IOS Telephony Service and IP addresses are assigned by the VoIP's gateway.
 
-Wireless Lan Controller was configured to manage the Access Points's configuration and provide wifi using WPA2's Enterprise mode.
+Wireless Lan Controller was configured to manage the Access Points's configuration and provide Wifi using WPA2's Enterprise mode.
 
