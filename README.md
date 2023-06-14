@@ -18,7 +18,7 @@ Firewall was configured in Cisco's ASA with zone-based security in the Main Site
 
 Data Center, Users, and Site2WAN have been configured with a security level of 100 while DMZ zone is set to 50 and Internet zone is set to 0.
 
-IPsec tunnel was configured site to site to allowed a secure VPN tunnel between the sites using IKEv1.
+IPsec tunnel was configured site to site to allowed a secure VPN tunnel between the sites using IKEv1 and pre-shared key.
 
 ## VoIP
 VoIP was configured using Cisco IOS Telephony Service and IP addresses are assigned via DHCP by the VoIP's gateway.
